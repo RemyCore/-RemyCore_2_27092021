@@ -2,6 +2,7 @@
 html, body
 {
     font-family: Raleway;
+    text-decoration: none
 }
 
 
@@ -62,4 +63,53 @@ html, body
 .margeLogoReservia
 {
     margin-bottom: 10px;
+} 
+
+/*Navigation header section */
+
+.bordureRecherche
+{
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #F2F2F2;
+}
+
+.Recherche
+{
+    height:50px;
+    width:230px;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+
+.tailleLogoMap
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+.paddingRecherche
+{
+    padding-left: 20px;
+}
+
+.boutonRecherche
+{
+    height: 50px;
+    width: 120px;
+    color:white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.fondGris
+{
+    background-color: #F2F2F2;
+}
+
+.fondBleu
+{
+    background-color: #0065FC;
 } 
