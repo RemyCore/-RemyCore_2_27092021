@@ -1,10 +1,9 @@
 /*PAGE*/
+
 html, body
 {
     font-family: Raleway;
-    text-decoration: none
 }
-
 
 .flexCenter
 {
@@ -31,7 +30,10 @@ html, body
 {
     text-decoration: none;
 }
-
+.bordureNon
+{
+    border: none;
+}
 /*Navigation header*/
 
 .sousLignageLien
@@ -63,7 +65,7 @@ html, body
 .margeLogoReservia
 {
     margin-bottom: 10px;
-} 
+}
 
 /*Navigation header section */
 
@@ -113,3 +115,60 @@ html, body
 {
     background-color: #0065FC;
 } 
+
+
+
+/*FILTRES*/
+
+.margesFiltres
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filtres
+{
+    display: flex;
+    align-items: center;
+}
+
+.margesTitre
+{
+    margin-right: 20px;
+}
+
+.filtresTexteIcone
+{
+  border: 2px solid #F2F2F2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+} 
+
+.filtresTexteIcone:hover > .filtreTexte 
+{
+    color: #0065FC;
+}
+
+.filtresTexteIcone:hover > .filtreIcone
+{
+    color: white;
+    background-color: #0065FC;
+}
+
+.filtreTexte
+{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.filtresIcone
+{
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color:#0065FC;
+    background-color:#DEEBFF;
+}

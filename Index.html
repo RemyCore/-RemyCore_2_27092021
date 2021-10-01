@@ -2,73 +2,117 @@
 <html lang="fr">
 <head>
     <meta-charset="utf-8">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-
     <title>Reservia</title>
-
+    
     <link rel="stylesheet" href="style.css">
 </head>    
-
 <body>
     <header>
         <nav>
             <div class="flexBetween">
-
-                <div><img 
+                <div>
+                    <img 
                     src="images/logo/Reservia@3x.png" 
                     alt="logo reservia"
                     width="120px" 
                     height="50px"
                      />
                  </div>
-
                 <div class="espacementLiens flexAround">
-
                   <div class="sousLignageLien flexCenter bordureNavigationHebergements">
                         <a class="couleurLiens sousLignageLiens" href="#">Hebergements</a> 
                     </div>
-
                   <div class="sousLignageLien flexCenter"> 
                         <a class="couleurLiens2 sousLignageLiens" href="#">Activités</a>
                     </div>
-
                   <div class="sousLignageLien flexCenter">
                         <a class="couleurLiens sousLignageLiens" href="#">S'inscrire</a>
                     </div>
                 </div>
-
             </div>    
-        </nav>   
+        </nav>
     </header>
 
+
+
     <header>
-        <section>
-  
-          <div>
-              <H1>Trouvez votre hébergement pour des vacances de rêve</H1>
-              <p>En plein centre ville ou en pleine nature</p>
+      <section>
+
+        <div>
+            <H1>Trouvez votre hébergement pour des vacances de rêve</H1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div class="flexCenter bordureRecherche">
+
+            <div class="tailleLogoMap flexCenter fondGris"> 
+                <img 
+                src="images/logo/map-marker-alt-solid.svg" 
+                src="images/Icones_fontawesome/map-marker-alt-solid.svg" 
+                alt="logo map" 
+                width="12px"> 
+            </div>
+            <div>
+                <input 
+                class="Recherche flexCenter bordureNon paddingRecherche"
+                type="search" 
+                value="Marseille, France"/> 
+            </div>
+
+            <div class="fondBleu flexCenter boutonRecherche"> Rechercher </div>
+
+        </div>
+
+
+
+        <div class="filtres margesFiltres">
+          <div class="margesTitre"><h3>Filtres</h3></div>
+
+
+          <div class="flexBetween filtresTexteIcone">
+             <div class= "flexCenter filtresIcone ">
+              <img
+              src="images/Icones_fontawesome/money-bill-wave-solid.svg"
+              alt="icone money"
+              width="20px">
+             </div>        
+              <div class="filtreTexte flexCenter"> Economique</div>
           </div>
-  
-          <div class="flexCenter bordureRecherche">
-  
-              <div class="tailleLogoMap flexCenter fondGris"> 
-                  <img 
-                  src="images/logo/map-marker-alt-solid.svg" 
-                  alt="logo map" 
-                  width="12px"> 
-              </div>
-  
-              <div>
-                  <input 
-                  class="Recherche flexCenter bordureNon paddingRecherche"
-                  type="search" 
-                  value="Marseille, France"/> 
-              </div>
-  
-              <div class="fondBleu flexCenter boutonRecherche"> Rechercher </div>
-  
+
+          <div class="flexBetween filtresTexteIcone">
+             <div class= "flexCenter filtresIcone">
+              <img 
+              src="images/Icones_fontawesome/child-solid.svg"
+              alt="icone child"
+              width="20px">
+             </div>     
+              <div class="filtreTexte flexCenter">Familial</div>
+          </div>
+
+          <div class="flexBetween filtresTexteIcone">
+             <div class="flexCenter filtresIcone">
+              <img src="images/Icones_fontawesome/heart-solid.svg"
+              alt="icone coeur"
+              width="20px">
+             </div>       
+              <div class="filtreTexte flexCenter">Romantique</div>
+          </div>
+
+          <div class="flexBetween filtresTexteIcone">
+             <div class= "flexCenter filtresIcone">
+              <img
+              src="images/Icones_fontawesome/dog-solid.svg"
+              alt="icone dog"
+              width="20px">
+             </div>
+              <div class="filtreTexte flexCenter">Animaux autorisés</div>
+          </div>
+
+        </div>  
+
+      <section>
+    </header>
 </body>   
-</html> 
+</html>
