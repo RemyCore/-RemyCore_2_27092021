@@ -1,0 +1,65 @@
+/*PAGE*/
+html, body
+{
+    font-family: Raleway;
+}
+
+
+.flexCenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sousLignageLiens
+{
+    text-decoration: none;
+}
+
+/*Navigation header*/
+
+.sousLignageLien
+{
+    width: 140px;
+    height: 99px;
+}
+
+.espacementLiens
+{
+    width: 45%;
+}
+
+.couleurLiens
+{
+    color: blue;
+}
+
+.couleurLiens2
+{
+    color: black;
+}
+
+.bordureNavigationHebergements
+{
+    border-top: 1px solid black;
+}
+
+.margeLogoReservia
+{
+    margin-bottom: 10px;
+} 
