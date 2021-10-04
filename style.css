@@ -235,6 +235,7 @@ html, body
 .bloc2
 {
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .carréHebergements
@@ -482,3 +483,26 @@ html, body
     height: 200px; 
 }
 
+
+/*FOOTER*/
+
+.footer
+{
+    height: 300px;
+    margin-top: 100px;
+}
+
+.tailleBlocFooter
+{
+    height: 150px;  
+}
+
+.margeBlocFooter1
+{
+    margin-left: 5%;
+}
+
+.margeBlocFooter2
+{
+    margin-right: 15%;
+}
