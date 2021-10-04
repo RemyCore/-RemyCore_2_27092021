@@ -62,7 +62,18 @@ html, body
 
 .bordureNavigationHebergements
 {
-    border-top: 1px solid black;
+    border-top: 1px solid transparent;
+}
+
+.bordureNavigationHebergements:hover
+{
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+
+.bordureNavigationHebergements:hover > a
+{
+    color: #0065FC
 }
 
 .margeLogoReservia
