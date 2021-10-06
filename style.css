@@ -428,7 +428,7 @@ html, body
 
 {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.);
 }
 
 .cubeActivites2356
@@ -538,7 +538,18 @@ html, body
     margin-left: 5%;
 }
 
-.margeBlocFooter2
+
+.margeBlocFooter3
 {
     margin-right: 15%;
+}
+
+.lienFooter
+{
+    color: black;  
+}
+
+.divLienFooter
+{
+    height: 30px;
 }
