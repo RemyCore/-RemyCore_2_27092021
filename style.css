@@ -258,6 +258,12 @@ html, body
     border-radius: 20px;
 }
 
+.carréHebergements:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .cubeDescriptionsHebergements
 {
     width: 98%;
@@ -345,6 +351,12 @@ html, body
     border-radius: 20px;
 }
 
+.cubePopulaires:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .cubeDescriptionsPopulaires
 {
     width: 60%;
@@ -412,6 +424,13 @@ html, body
     box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
+.cubeActivites:hover
+
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .cubeActivites2356
 {
     width: 100%;
@@ -419,6 +438,12 @@ html, body
     box-shadow: 5px 5px 5px 1px #F2F2F2;
     margin-bottom: 55px;
 }    
+
+.cubeActivites2356:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
 .hauteurTitre
 {
