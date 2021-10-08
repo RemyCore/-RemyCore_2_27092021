@@ -13,8 +13,8 @@
 <body>
     <header>
         <nav>
-            <div class="flexBetween">
-                <div>
+            <div class=" espacementLiens flexBetween">
+                <div class="mobileTitreParagraphes">
                     <img 
                     src="images/logo/Reservia@3x.png" 
                     alt="logo reservia"
@@ -23,15 +23,16 @@
                      />
                  </div>
 
-                <div class="espacementLiens flexAround">
-                  <div class="sousLignageLien flexCenter bordureNavigationHebergements">
+                    <div class="espacementLiens12 flexCenter">
+                  <div class="tailleLienMobile sousLignageLien flexCenter bordureNavigationHebergements">
                         <a class="couleurLiens2 sousLignageLiens" href="#hebergements"
                         >Hebergements</a> 
                     </div>
 
-                  <div class="sousLignageLien flexCenter bordureNavigationHebergements"> 
+                  <div class="tailleLienMobile sousLignageLien flexCenter bordureNavigationHebergements"> 
                         <a class="couleurLiens2 sousLignageLiens" href="#activites"
                         > Activités</a>
+                    </div>
                     </div>
 
                   <div class="sousLignageLien flexCenter bordureNavigationHebergements">
@@ -45,7 +46,7 @@
 
     <header>
       <section>
-        <div>
+        <div class="mobileTitreParagraphes">
             <H1>Trouvez votre hébergement pour des vacances de rêve</H1>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
@@ -64,22 +65,31 @@
             </div>
 
 
-            <div class="fondBleu flexCenter boutonRecherche">Rechercher</div>
+            <div class="fondBleu flexCenter boutonRecherche">
+                <span class="mobileNone">Rechercher</span>
+                <span class="desktopNone"><i class="fas fa-search"></i></span> 
+            </div>
+
         </div>
 
-            <div class="filtres margesFiltres">
+            <div class="mobileFiltreWrap filtres margesFiltres">
                 <div class="margesTitre"><h3>Filtres</h3></div>
 
-                <div class="flexBetween filtresTexteIcone">
+                <div class="flexAround">
+
+                <div class="mobilesEconomiques flexBetween filtresTexteIcone">
                     <i class="fas fa-money-bill-wave fa-lg filtresIcone flexCenter"></i>
                     <div class="filtreTexte flexCenter">Economiques</div>
                 </div>    
         
-                <div class="flexBetween filtresTexteIcone">
+                <div class=" mobileFamiliales flexBetween filtresTexteIcone">
                         <i class="fas fa-child fa-lg filtresIcone flexCenter"></i>
                         <div class="filtreTexte flexCenter">Familiales</div>
-                    </div>    
+                    </div>  
+                </div>      
                     
+
+                    <div class="mobileFiltreWrap flexAround">
                     
                         <div class="flexBetween filtresTexteIcone">
                             <i class="fas fa-heart fa-lg filtresIcone flexCenter"></i>
@@ -90,7 +100,8 @@
                                 <i class="fas fa-dog fa-lg filtresIcone flexCenter"></i>
                                 <div class="filtreTexte flexCenter">Animaux autorisés</div>
                             </div>
-                        </div>        
+                        </div>
+                    </div>        
                         
          <div class="info">
             <div><i class="fas fa-info couleurBleu iconeInfo flexCenter "></i>
@@ -103,7 +114,7 @@
                  <section id="hebergements" class="flexAround">
 
                     <div class="flexColumnAround tailleHebergements fondGris blocHebergements">
-                     <h3>Hébergements à Marseille</h3> 
+                     <h2>Hébergements à Marseille</h2> 
             
                      <div class="bloc1 flexBetween">  
             
@@ -114,7 +125,7 @@
             
                          <div class="cubeDescriptionsHebergements">
                               <h3>Auberge de la Cannebiére</h3>
-                              <p>Nuit à partir de 25e</p>
+                              <p>Nuit à partir de 25€</p>
                               <div><i class="fas fa-star couleurBleu">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -131,7 +142,7 @@
             
                              <div class="cubeDescriptionsHebergements ">
                                  <h3>Hotel du port</h3>
-                                 <p>Nuit à partir de 52e</p>
+                                 <p>Nuit à partir de 52€</p>
                                  <div><i class="fas fa-star couleurBleu">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -148,7 +159,7 @@
             
                                 <div class="cubeDescriptionsHebergements">
                                      <h3>Hotel les mouettes</h3>
-                                     <p>Nuit à partir de 76e</p>
+                                     <p>Nuit à partir de 76€</p>
                                      <div><i class="fas fa-star couleurBleu">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -169,7 +180,7 @@
             
                                         <div class="cubeDescriptionsHebergements">
                                          <h3>Hotel de la mer</h3>
-                                         <p>Nuit à partir de 46e</p>
+                                         <p>Nuit à partir de 46€</p>
                                          <div><i class="fas fa-star couleurBleu">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -187,7 +198,7 @@
             
                                      <div class="cubeDescriptionsHebergements"> 
                                              <h3>Auberge le panier</h3>
-                                             <p>Nuit à partir de 23e</p>
+                                             <p>Nuit à partir de 23€</p>
                                              <div><i class="fas fa-star couleurBleu">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -205,7 +216,7 @@
             
                                         <div class="cubeDescriptionsHebergements">
                                                  <h3>Hotel chez Amina</h3>
-                                                 <p>Nuit à partir de 96e</p>
+                                                 <p>Nuit à partir de 96€</p>
                                                  <div><i class="fas fa-star couleurBleu">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -221,7 +232,7 @@
                    
                    <div class="taillePopulaires blocPopulaires fondGris">
                     <div class="flexBetween">
-                        <h2>Les plus Populaires</h2>
+                        <h2 class="tabletteTailleTitrePopulaire">Les plus Populaires</h2>
                         <div><i class="fas fa-chart-line fa-2x"></i></div>
                     </div>
          
@@ -231,7 +242,7 @@
                     <div class="imgPopulaires1"></div>
                     <div class="cubeDescriptionsPopulaires">
                         <h3>Hotel le soleil du matin</h3>
-                        <p>Nuit à partir de 128e</p>
+                        <p>Nuit à partir de 128€</p>
                           <div><i class="fas fa-star couleurBleu">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -246,7 +257,7 @@
                      <div class="imgPopulaires2"></div>
                      <div class="cubeDescriptionsPopulaires">
                          <h3>Au coeur de l'eau Chambres d'hotes</h3>
-                         <p>Nuit à partir de 71e</p>
+                         <p>Nuit à partir de 71€</p>
                          <div><i class="fas fa-star couleurBleu">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -261,7 +272,7 @@
                      <div class="imgPopulaires3"></div>
                      <div class="cubeDescriptionsPopulaires">
                          <h3>Hotel Tout bleu et Blanc</h3>
-                         <p>Nuit à partir de 68e</p>
+                         <p>Nuit à partir de 68€</p>
                          <div><i class="fas fa-star couleurBleu">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -277,7 +288,7 @@
         </section>
 
         <section id="activites" class="Activites">
-            <h2>Activités à Marseille</h2>
+            <h2 class="mobileTitreParagraphes">Activités à Marseille</h2>
             <div class="blocActivites flexBetween">
             <div class="cubeActivites flexColumnCenter">
                 <div class="imgActivites1"></div>    
@@ -294,7 +305,7 @@
 
                     <div class="cubeActivites2356 flexColumnCenter">
                         <div class="imgActivites3"></div>    
-                        <div class="hauteurTitre titreActivites"><h3>Iles du Frioules</h3></div>
+                        <div class="hauteurTitre titreActivites"><h3>Iles du Frioul</h3></div>
                     </div>   
                     </div>
 

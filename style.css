@@ -2,6 +2,8 @@ html, body
 {
     font-family: Raleway;
     text-decoration: none;
+    font-weight: bold; 
+
 }
 
 .flexCenter
@@ -26,7 +28,6 @@ html, body
 }
 
 
-
 .sousLignageLiens
 {
     text-decoration: none;
@@ -47,7 +48,12 @@ html, body
 
 .espacementLiens
 {
-    width: 45%;
+    width: 100%;
+}
+
+.espacementLiens12
+{
+    margin-left: 60%;
 }
 
 .couleurLiens
@@ -82,6 +88,11 @@ html, body
 }
 
 /*Navigation header section */
+
+.desktopNone
+{
+display: none;
+}
 
 .bordureRecherche
 {
@@ -256,6 +267,8 @@ html, body
     background-color: white;
     padding: 1%;
     border-radius: 20px;
+    /*Ajouter pour voir en mobile desktop*/
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 .carréHebergements:hover
@@ -552,4 +565,245 @@ html, body
 .divLienFooter
 {
     height: 30px;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1296px)
+
+{.espacementLiens12
+{    
+    margin-left: 35%;
+}
+
+.cubeDescriptionsHebergements {
+    min-height: 150px;
+}
+
+.tailleHebergements {
+    min-height: auto;
+    padding: 20px;
+}
+
+.taillePopulaires {
+    min-height: auto;
+    padding: 20px;
+}
+
+.tabletteTailleTitrePopulaire{
+    margin-top: ;
+}
+}
+
+@media screen and (max-width:990px) {
+.mobileFiltreWrap {
+    flex-direction: column;
+    align-items: flex-start;
+
+}    
+
+.filtresTexteIcone {
+    margin-bottom: 20px;
+}
+
+#hebergements {
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.blocPopulaires{
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+    padding: 5%;
+}
+
+.blocHebergements{
+
+    flex: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 50px;
+    padding: 5%;
+}    
+}
+
+@media screen and (max-width:770px) {
+.espacementLiens {
+    width: 90%;
+}
+
+.espacementLiens12 {
+    margin-left: 20%;
+}
+
+.blocHebergements{
+    height: auto;
+}
+
+.bloc1 {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.bloc2 {
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.carréHebergements {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.cubeDescriptionsHebergements {
+    min-height: auto;
+}
+
+.blocActivites {
+    flex-direction: column;
+    height: auto;
+}
+
+.cubeActivites {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.blocActivites2356 {
+    width: 100%;
+    height: auto;
+}
+
+.cubeActivites2356 {
+    margin-bottom: 50px;
+}
+
+.imgActivites1,
+.imgActivites2,
+.imgActivites3,
+.imgActivites4,
+.imgActivites5,
+.imgActivites6 {
+    height: 200px;
+}
+
+.footer{
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 20px;
+}
+
+.margeBlocFooter1{
+    margin-left: 0;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+
+.espacementLien{
+    flex-direction: row;
+}
+
+.espacementLiens12{
+    order: 1;
+    width: 100%;
+    margin-left: 0;
+}    
+
+.tailleLienMobile {
+    width: 50%;
+    border-top: none;
+    border-bottom: 5px solid #F2F2F2;
+}
+
+.espacementLiens{
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tailleLienMobile :hover {
+    border-top: 0;
+    border-bottom: 5px solid #0065FC;
+}
+
+.mobileTitreh1{
+    font-size: x-large;
+}
+
+.bordureRecherche{
+    width: auto;
+    border: none;
+}
+
+.Recherche {
+    width: 200px;
+    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+
+}
+
+.boutonRecherche {
+    width: 50px;
+    border-radius: 15px;
+}
+
+.desktopNone {
+    display: block;
+}
+
+
+.mobileNone {
+    display: none;
+}
+
+
+.margesFiltres {
+    padding-left: 5%;
+}
+
+.mobilesEconomiques {
+    margin-right: 5px;
+}
+
+.mobileFamiliales{
+    margin-right: 0;
+}
+
+.filtreTexte {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.info {
+    padding-left: 5%;
+}
+
+.blocPopulaires {
+    border-radius: 0;
+}
+
+.blocHebergements {
+    background-color: white;
+}
+
+.mobileTitreParagraphes {
+    padding-left: 5%;
+}
+
+.blocActivites {
+    padding: 5%;
+    width: 95%;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
 }
